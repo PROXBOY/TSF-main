@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🚀 Add Ξ L I Λ N Λ 🏓",
+                                text="🚀 Add Ξ L I Λ N Λ to your group 🏓",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/",
                             )
                         ],
                         [
