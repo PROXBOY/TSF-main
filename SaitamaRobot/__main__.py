@@ -244,12 +244,7 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/",
                             )
                         ],
-                        [
-                            InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/",
-                            )
-                        ],
+                        
                     ]
                 ),
             )
