@@ -227,8 +227,8 @@ def start(update: Update, context: CallbackContext):
                         
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting started guide",
-                                url="https://t.me/",
+                                text="Owner",
+                                url="@I_em_spoderman",
                             )
                         ],
                         
