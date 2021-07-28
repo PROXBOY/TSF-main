@@ -74,14 +74,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed fast and safe group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+I am TSF ROBOT for group management.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm TSF Official bot ! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -100,12 +99,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/1ee56eca80e83e5a4a42a.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/5a7945894898e8cee4a26.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+DONATE_STRING = """NO need sir."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -222,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🚀 Add J Ξ R R Y to your group 🏓",
+                                text="𝚊𝚍𝚍 𝚃𝚂𝙵 𝙱𝙾𝚃 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙💥",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
